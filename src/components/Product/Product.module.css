@@ -1,0 +1,83 @@
+.Product {
+    padding-bottom: 24px;
+    background-color: #EFEFEF;
+    margin-top: 30px;
+}
+
+.productItem{
+    position: relative;
+    border-radius: 5px;
+    /* box-shadow: 0 4px 10px rgb(160, 160, 160); */
+    background-color: #fff;
+    font-family:'Roboto', sans-serif;
+    /* margin-top: 24px; */
+}
+
+.productImg{
+    width: 100%;
+    max-height: 200px;
+    padding: 14px;
+}
+
+.productStar {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    color: #adb5bd;
+    margin-bottom: 6px ;
+    padding: 0 20px 0 0px;
+}
+
+.productUL {
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+}
+
+
+.productSpan {
+    font-size: 3rem ;
+    text-shadow: 0px 2px 3px rgb(173, 173, 173);
+    color:#142850;
+    transform-origin: opacity,transform;
+    -webkit-animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both ;
+    animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.productNAV a {
+    font-size: 1.2rem;
+    text-shadow: 0px 2px 3px rgb(173, 173, 173);
+    color:#1A9D5D;
+    transform-origin: opacity,transform;
+    -webkit-animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both ;
+    animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.productElmenet {
+    font-size: 3rem ;
+   
+    color:#142850;
+    transform-origin: opacity,transform;
+    -webkit-animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both ;
+    animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.productCard {
+    cursor: pointer;
+}
+
+.ProductSale {
+    width: 30%;
+    height: 22px;
+    border: 1px solid #e35d6a;
+    border-radius: 2px;
+}
+
+.ProductSale {
+    font-weight: 400;
+    color: #e35d6a;
+    font-size: 12px;
+    text-align: center;
+    transform-origin: opacity,transform;
+    -webkit-animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both ;
+    animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}

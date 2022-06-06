@@ -1,55 +1,79 @@
-.header {
-    position: fixed;
+.HeaderRegular {
+    position: sticky;
     top: 0;
-    left: 0;
-    width: 100%;
-    padding: 40px 100px;
-    z-index: 10000;
-    display: flex;
-    justify-content: space-between;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.navIcon {
+    display:flex;
+    justify-content:space-between;
+    width: 20%;
     align-items: center;
-    transition: 0.5s;
 }
 
-.header .logo {
-    width: 10%;
-    color: #fff;
-    font-weight: 700;
-    font-size: 1rem;
-    text-decoration: underline;
-}
-
-.logo img {
-    width: 100%;
-    height: 100%;
-}
-
-.header .navigation {
+.logins {
     position: relative;
-    display: flex;
+    margin: 10px 0;
+    border-bottom: 1px solid #eee;
 }
 
-.header .navigation li {
+.containerLogin {
+    position: absolute;
+ opacity: 0;
+ visibility: hidden;
     list-style: none;
-    margin-left: 30px;
+    padding: 0;
+    margin: 0;
+    top:36px; 
+    background-color: rgb(255, 255, 255);
+    width: 160px;
+    left: 50%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgb(158, 158, 158);
+   transform: translateX(-50%);
+   text-align: center;
+   z-index: 3;
 }
 
-.header .navigation li a {
-    text-decoration: none !important;
-    color: #fff;
-    font-weight: 300;
+.containerLogin::after {
+    content: "";
+    position: absolute;
+    top: -24px;
+    right: 50%;
+    transform:translateX(50%);
+    border-width: 12px 15px;
+    border-style: solid;
+    border-color: transparent transparent rgb(148, 148, 148)   transparent;
 }
 
-.header .active {
-    background: #fff;
-    padding: 40px 100px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+.logins:hover .containerLogin{
+    opacity: 1;
+    visibility: visible;
 }
 
-.header .active .logo {
-    color: #111;
+.loginLink{
+    color:var(--text-color);
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
 }
 
-.header .active .navigation li a {
-    color: #111;
+.cartLink{
+    text-decoration: none;
+    user-select: none;
+    --webkit-user-select: none;
+    color:#000;
+
+}
+
+.cart {
+    position: relative;
+
+    margin: 10px 0;
+    border-bottom: 1px solid #eee;
+    left: 13%;
 }

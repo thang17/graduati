@@ -1,0 +1,11 @@
+.Banner1 img {
+    width: 100%;
+    height: 100%;
+    padding: 0 50px;
+    border-image: 50 stretch;
+}
+
+
+/* .Banner1 {
+    border-radius: 50px0;
+} */

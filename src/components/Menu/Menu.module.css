@@ -1,0 +1,20 @@
+.Menu {
+    margin-top: 5rem;
+}
+
+.MenuCoca {
+    border-radius: 1rem;
+    width: 13.666667% !important;
+    padding: 0 20px !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.25)!important;
+}
+
+.best {
+    font-size: 2.5rem;
+    text-shadow: 0px 2px 3px rgb(173, 173, 173);
+    color:#142850;
+    margin:  0 0 20px 0;
+    transform-origin: opacity,transform;
+    -webkit-animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both ;
+    animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}

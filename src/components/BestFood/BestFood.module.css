@@ -1,0 +1,54 @@
+.BestFoodIteam {
+    position: relative;
+}
+
+.BestFoodIteam img {
+      position: absolute;
+      top: 0;
+      transition:transform 0.7s ease;
+      width: 450px;
+      height: 450px;
+      transform: scale(1);
+      border-radius: 50%;
+      background-color: rgba(241, 241, 241, 0.2);
+}
+
+.BestFoodIteam:hover .scaleImg {
+    transform: scale(0);
+    cursor: pointer;
+    background-color: rgba(241, 241, 241, 0.2);
+}
+
+.BestFoodText {
+    font-size: 1.6rem !important;
+    color:#142850;
+    margin: 0;
+}
+
+.TextPrimary {
+    color: #1A9D5D !important;
+    margin: 30px 0 0 0;
+    font-weight: 500;
+}
+
+.BestFoodOUR {
+    padding: 0 30px;
+}
+
+.OurBtn{
+    width: 100%;
+    border:none;
+    height: 40px;
+    background-color: #C7C6C8;
+    border-radius:5px;
+}
+
+.readMore {
+    background-color: #1A9D5D;
+    margin-top: 24px;
+    border:none;
+    height: 40px;
+    width: 30%;
+    border-radius:5px;
+color:#fff;
+}

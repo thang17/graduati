@@ -1,23 +1,30 @@
-import React from 'react'
-import styles from '../Header/Banner.module.css'
-import Header from './Header'
+import React from "react";
+import styles from "../Header/Banner.module.css";
+import Header from "./Header";
+import anh from "../../asstes/images/favpng.png";
 
 const Banner = () => {
   return (
     <>
-    <Header />
-    <section className={styles.header}>
-        <div className={styles.content}>
-           <h2>Always Choose Good</h2>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod
-               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-               quis nostrud.
-           </p>
-        <a href='#' className={styles.btn}>Our Menu</a>
+      <Header />
+      <section className={`${styles.mainContent} `}>
+        <div className="container">
+          <div className={styles.headBanner}>
+            <div className={styles.text}>
+              <p className={styles.textTop}>Our special dish</p>
+              <h2 className={styles.titleCarousel}>Spicy Noodles</h2>
+              <p className={styles.textDetail}>
+                hank you for sharing with us your <br /> knowledge and making us
+                better!
+              </p>
+              <button className={styles.bannerBtn}>Oder Now</button>
+            </div>
+            <img className={`${styles.bannerImg}`} alt="Image" src={anh} />
+          </div>
         </div>
-    </section>
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;
