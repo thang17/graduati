@@ -3,6 +3,7 @@ import styles from "../Login/Login.module.css";
 import FBImg from "../../asstes/images/social-icons/FBImg.png";
 import GmailImg from "../../asstes/images/social-icons/GmailImg.png";
 import logoMau from "../../asstes/images/logo.svg";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -10,7 +11,7 @@ function Login() {
       <div className={`${styles.sideBar} container col-5`}>
         <div className={`${styles.Login} mb-3`}>
           <a href="/" className={`${styles.logo}`}>
-            <img src={logoMau} alt="" />
+            <img src={logoMau} alt="" width={500} height={50} style={{filter: "drop-shadow(2px 4px 6px black)"}}/>
           </a>
           <h5 className={`${styles.title} mb-5`}>Chào mừng bạn quay trở lại !</h5>
           <form>
@@ -43,8 +44,8 @@ function Login() {
               </span>
 
               <a
-                href="/login"
-                style={{ fontStyle: `italic`, color: `#74788d` }}
+                to="/Login"
+                style={{ fontStyle: `italic`, color: `#74788d` ,cursor: "pointer"}}
               >
                 Quên mật khẩu?
               </a>
@@ -57,9 +58,9 @@ function Login() {
             </div>
             <p style={{ textAlign: `center` }}>
               Bạn chưa có tài khoản ?
-              <a href="#" className={`${styles.changeForm}`}>
+              <Link to="/register" className={`${styles.changeForm}`}>
                 Đăng ký ngay
-              </a>
+              </Link>
             </p>
           </form> 
         </div>

@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Login from "../src/Pages/Login/Login"
+import SignUp from './Pages/SignUp/SignUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <Switch>
       <Route exact path="/" component={App} />
       <Route exact path="/login" component={Login} />
+      <Route exact path="/register" component={SignUp} />
     </Switch>
   </BrowserRouter>
 );

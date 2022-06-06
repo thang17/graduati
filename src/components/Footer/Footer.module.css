@@ -1,0 +1,72 @@
+.Footer {
+    margin-bottom: 3rem;
+    padding: 0 150px;
+    /* background-image: url("../../asstes/images/docflow.png");
+    background-size: cover; */
+}
+
+.FooterBox h4 {
+    font-size: 1.5rem;
+    color: #142850;
+    padding: 1rem 0;
+}
+
+.FooterBox .FooterLinks {
+    display: block;
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    color: #666;
+}
+
+.FooterBox .FooterLinks:hover i {
+    padding-right: 1rem;
+}
+
+.FooterBox p {
+    line-height: 1.8rem;
+    font-size: 1rem;
+    padding: .5rem 0;
+    color: #666;
+}
+
+.FooterBox .FooterShare a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    color: #130f40;
+    margin-left: 0.5rem;
+    background: #eee;   
+    text-align: center;
+}
+
+.FooterBox .FooterShare a:hover {
+    background: #ff7800;
+    color: #fff;
+}
+
+.FooterBox .email {
+    width: 100%;
+    margin: .7rem 0;
+    padding: .2rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.2rem;
+    color: #130f40;
+    text-transform: none;
+}
+
+.FooterBox .paymentImg {
+    margin-top: 1rem;
+    height: 1.8rem;
+}
+.btn {
+    background-color: #142850;
+        color: #fff;
+        border-radius: 4px;
+        border: none;
+        width: 130px;
+        height: 40px;
+}

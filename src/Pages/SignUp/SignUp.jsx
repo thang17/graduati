@@ -3,6 +3,7 @@ import styles from "../SignUp/SignUp.module.css";
 // import FBImg from "../../assets/images/social-icons/FBImg.png";
 // import GmailImg from "../../assets/images/social-icons/GmailImg.png";
 import logoMau from "../../asstes/images/logo.svg";
+import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 function SignUp() {
@@ -94,9 +95,9 @@ function SignUp() {
             <button className={`${styles.btn}`}>Đăng Ký</button>
             <p style={{ textAlign: `center` }}>
               Bạn đã có tài khoản ?
-              <a href="#" className={`${styles.changeForm}`}>
+              <Link to="/Login" className={`${styles.changeForm}`}>
                 Đăng nhập ngay
-              </a>
+              </Link>
             </p>
           </form>
         </div>

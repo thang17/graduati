@@ -4,6 +4,7 @@ import logo from "../../asstes/image/logo.svg";
 import SearchIcon from "@mui/icons-material/Search";
 import PersonIcon from "@mui/icons-material/Person";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -54,14 +55,14 @@ const Header = () => {
                 <PersonIcon sx={{fontSize: "35px"}}/>
               <ul className={styles.containerLogin}>
                 <li className={styles.loginItem}>
-                  <a href="#" className={styles.loginLink}>
+                  <Link to="/Login" className={styles.loginLink}>
                     Login
-                  </a>
+                  </Link>
                 </li>
                 <li className={styles.register}>
-                  <a href="#" className={styles.loginLink}>
+                  <Link to="/register" className={styles.loginLink}>
                     Register
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
