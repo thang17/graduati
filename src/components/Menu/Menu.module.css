@@ -1,12 +1,18 @@
 .Menu {
     margin-top: 5rem;
+    cursor: pointer;
 }
 
 .MenuCoca {
     border-radius: 1rem;
-    width: 13.666667% !important;
+    width:100% !important;
     padding: 0 20px !important;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.25)!important;
+    display: inline !important;
+}
+
+.categoryimg {
+    display: inline-block !important;
 }
 
 .best {

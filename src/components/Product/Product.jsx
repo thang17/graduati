@@ -6,6 +6,8 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import TwoWheelerIcon from '@mui/icons-material/TwoWheeler';
 import LockClockIcon from '@mui/icons-material/LockClock';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 const Product = () => {
   return (
@@ -37,7 +39,8 @@ const Product = () => {
           </div>
 
           <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-            <h1 className={`${styles.productElmenet} display-4 fw-normal`}>Gần tôi</h1>
+            <p className={styles.productElmenetP}>Our Menu</p>
+            <h1 className={`${styles.productElmenet} display-4 fw-normal`}>TODAY'S SPECIALITY</h1>
           </div>
           <div className="row d-flex  row-cols-1 row-cols-md-3 mb-3 ">
             <div class="col-lg-3 col-md-4 col-sm-6">
@@ -55,7 +58,37 @@ const Product = () => {
                     <li className={styles.productStar}><AccessTimeIcon sx={{fontSize: "20px", color: "#adb5bd"}} /> 22min</li>
                   </ul>
                   <ul class="list-unstyled mb-4">
-                     <li className={styles.productStar}><TwoWheelerIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giao hàng tiêu chuẩn  </li>
+                     
+                     <li className={styles.productStar}><LockClockIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giờ mở cửa    12:00 - 23:00 </li>
+                  </ul>
+                  <div className={styles.ProductSale}>
+                      <p>Mã giảm 35k</p>
+                  </div>
+                  <div className={styles.productDetail}>
+                    <i className={styles.Visibi}><VisibilityIcon /></i>
+                  </div>
+                  <div className={styles.productLove}>
+                    <i><FavoriteIcon /></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div className={`${styles.productCard} card mb-4 rounded-3 shadow-sm`}>
+                <div className={styles.productItem}>
+                    <img src={anh} alt="" className={`${styles.productImg} `} />
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title pricing-card-title">
+                    Cơm Ngon 435 - Cơm Văn Phòng - Thanh Bình
+                  </h6>
+                  <ul className= {`${styles.productUL} list-unstyled mt-3 d-flex`}>
+                    <li className={styles.productStar}><StarIcon sx={{fontSize: "20px", color: "#ffc107"}} />4.4</li>
+                    <li className={styles.productStar}><LocationOnIcon sx={{fontSize: "20px", color: "#adb5bd"}} /> 2.5km</li>
+                    <li className={styles.productStar}><AccessTimeIcon sx={{fontSize: "20px", color: "#adb5bd"}} /> 22min</li>
+                  </ul>
+                  <ul class="list-unstyled mb-4">
+                     
                      <li className={styles.productStar}><LockClockIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giờ mở cửa    12:00 - 23:00 </li>
                   </ul>
                   <div className={styles.ProductSale}>
@@ -79,7 +112,7 @@ const Product = () => {
                     <li className={styles.productStar}><AccessTimeIcon sx={{fontSize: "20px", color: "#adb5bd"}} /> 22min</li>
                   </ul>
                   <ul class="list-unstyled mb-4">
-                     <li className={styles.productStar}><TwoWheelerIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giao hàng tiêu chuẩn  </li>
+                     
                      <li className={styles.productStar}><LockClockIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giờ mở cửa    12:00 - 23:00 </li>
                   </ul>
                   <div className={styles.ProductSale}>
@@ -103,31 +136,7 @@ const Product = () => {
                     <li className={styles.productStar}><AccessTimeIcon sx={{fontSize: "20px", color: "#adb5bd"}} /> 22min</li>
                   </ul>
                   <ul class="list-unstyled mb-4">
-                     <li className={styles.productStar}><TwoWheelerIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giao hàng tiêu chuẩn  </li>
-                     <li className={styles.productStar}><LockClockIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giờ mở cửa    12:00 - 23:00 </li>
-                  </ul>
-                  <div className={styles.ProductSale}>
-                      <p>Mã giảm 35k</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-            <div className={`${styles.productCard} card mb-4 rounded-3 shadow-sm`}>
-                <div className={styles.productItem}>
-                    <img src={anh} alt="" className={`${styles.productImg} `} />
-                </div>
-                <div class="card-body">
-                  <h6 class="card-title pricing-card-title">
-                    Cơm Ngon 435 - Cơm Văn Phòng - Thanh Bình
-                  </h6>
-                  <ul className= {`${styles.productUL} list-unstyled mt-3 d-flex`}>
-                    <li className={styles.productStar}><StarIcon sx={{fontSize: "20px", color: "#ffc107"}} />4.4</li>
-                    <li className={styles.productStar}><LocationOnIcon sx={{fontSize: "20px", color: "#adb5bd"}} /> 2.5km</li>
-                    <li className={styles.productStar}><AccessTimeIcon sx={{fontSize: "20px", color: "#adb5bd"}} /> 22min</li>
-                  </ul>
-                  <ul class="list-unstyled mb-4">
-                     <li className={styles.productStar}><TwoWheelerIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giao hàng tiêu chuẩn  </li>
+                     
                      <li className={styles.productStar}><LockClockIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giờ mở cửa    12:00 - 23:00 </li>
                   </ul>
                   <div className={styles.ProductSale}>
@@ -153,7 +162,7 @@ const Product = () => {
                     <li className={styles.productStar}><AccessTimeIcon sx={{fontSize: "20px", color: "#adb5bd"}} /> 22min</li>
                   </ul>
                   <ul class="list-unstyled mb-4">
-                     <li className={styles.productStar}><TwoWheelerIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giao hàng tiêu chuẩn  </li>
+                     
                      <li className={styles.productStar}><LockClockIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giờ mở cửa    12:00 - 23:00 </li>
                   </ul>
                   <div className={styles.ProductSale}>
@@ -177,7 +186,7 @@ const Product = () => {
                     <li className={styles.productStar}><AccessTimeIcon sx={{fontSize: "20px", color: "#adb5bd"}} /> 22min</li>
                   </ul>
                   <ul class="list-unstyled mb-4">
-                     <li className={styles.productStar}><TwoWheelerIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giao hàng tiêu chuẩn  </li>
+                     
                      <li className={styles.productStar}><LockClockIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giờ mở cửa    12:00 - 23:00 </li>
                   </ul>
                   <div className={styles.ProductSale}>
@@ -201,7 +210,7 @@ const Product = () => {
                     <li className={styles.productStar}><AccessTimeIcon sx={{fontSize: "20px", color: "#adb5bd"}} /> 22min</li>
                   </ul>
                   <ul class="list-unstyled mb-4">
-                     <li className={styles.productStar}><TwoWheelerIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giao hàng tiêu chuẩn  </li>
+                     
                      <li className={styles.productStar}><LockClockIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giờ mở cửa    12:00 - 23:00 </li>
                   </ul>
                   <div className={styles.ProductSale}>
@@ -225,7 +234,7 @@ const Product = () => {
                     <li className={styles.productStar}><AccessTimeIcon sx={{fontSize: "20px", color: "#adb5bd"}} /> 22min</li>
                   </ul>
                   <ul class="list-unstyled mb-4">
-                     <li className={styles.productStar}><TwoWheelerIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giao hàng tiêu chuẩn  </li>
+                     
                      <li className={styles.productStar}><LockClockIcon sx={{fontSize: "20px", color: "#adb5bd"}}/> Giờ mở cửa    12:00 - 23:00 </li>
                   </ul>
                   <div className={styles.ProductSale}>

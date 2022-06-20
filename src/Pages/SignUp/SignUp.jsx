@@ -88,7 +88,7 @@ function SignUp() {
                 Chọn quyền
               </label>
             <select class="form-select" aria-label="Default select example">
-             <option value="1">Admin</option>
+             <option value="1">admin</option>
              <option value="2">Register</option>
            </select>
             </div>

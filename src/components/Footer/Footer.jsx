@@ -68,6 +68,9 @@ const Footer = () => {
           <div className="pb-2 border-bottom"></div>
       </div>
       </div>
+      <div className="pricing-header p-3 pb-md-4 mx-auto text-center">
+         <p className={styles.copyright}>@Copyright GoFood</p>
+      </div>
     </>
   );
 };

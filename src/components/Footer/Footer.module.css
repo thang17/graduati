@@ -3,6 +3,12 @@
     padding: 0 150px;
     /* background-image: url("../../asstes/images/docflow.png");
     background-size: cover; */
+    background-color: #d1e7dd;
+}
+
+ .FooterShare {
+    display: flex;
+    align-items: center;
 }
 
 .FooterBox h4 {
@@ -31,14 +37,14 @@
 }
 
 .FooterBox .FooterShare a {
-    height: 4rem;
-    width: 4rem;
-    line-height: 4rem;
+    height: 2.7rem;
+    width: 2.7rem;
+    line-height: 2rem;
     border-radius: 0.5rem;
     font-size: 2rem;
     color: #130f40;
     margin-left: 0.5rem;
-    background: #eee;   
+    background: #eee;
     text-align: center;
 }
 

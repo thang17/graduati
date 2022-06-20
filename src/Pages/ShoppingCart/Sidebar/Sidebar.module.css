@@ -1,0 +1,29 @@
+
+.sidebar .sidebarPrice .title,
+.sidebar .lastestProduct .lastestProductTitle {
+  margin: 48px 0 20px;
+  font-weight: bold;
+}
+.sidebar .sidebarCategory .sidebarCategoryTitle{
+    font-weight: bold;
+}
+.sidebar .sidebarMenu {
+  padding: 0;
+}
+.sidebar .sidebarMenu .sidebarMenuItem {
+  margin-top: 20px;
+}
+.sidebar .sidebarMenu .sidebarMenuItem a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+.sidebar .sidebarPrice {
+    margin-bottom: 20px;
+}
+.sidebar .lastestProduct {
+    margin-left:-20px;
+}
+.sidebar .lastestProduct .lastestProductTitle {
+    margin-left:20px;
+}

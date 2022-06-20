@@ -1,0 +1,59 @@
+/* .Contact {
+    background-color: #EFEFEF;
+
+} */
+
+.ContactItem {
+    padding: 0 50px;
+    margin-top: 50px;
+}
+.title p {
+    font-weight: 500;
+    font-family: "Pangolin", cursive;
+    font-size: 18px;
+    color: #fbb403;
+}
+
+.title h2 {
+    color: #1d1d1d;
+        text-transform: capitalize;
+        font-family: "Heebo", sans-serif;
+        font-weight: bold;
+}
+
+.btn {
+    background-color: #e60027;
+    color: #ffffff;
+    border: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 30px;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: -5px;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 26px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.btn:hover {
+    background-color: #1d1d1d;
+    transition: all 0.5s;
+}
+
+.map {
+    margin-bottom: 80px;
+}
+.map img {
+    width: 100%;
+    object-fit: cover;
+}

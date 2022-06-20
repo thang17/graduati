@@ -1,23 +1,29 @@
 .BestFoodIteam {
     position: relative;
     height: 500px;
+    
 }
 
 .BestFoodIteam img {
+    width: 450px;
+    height: 450px;
+}
+
+.scaleImg {
       position: absolute;
       top: 0;
       transition:transform 0.7s ease;
       width: 450px;
       height: 450px;
-      transform: scale(1);
+      transform: scale(0);
       border-radius: 50%;
       background-color: rgba(241, 241, 241, 0.2);
 }
 
 .BestFoodIteam:hover .scaleImg {
-    transform: scale(0);
+    transform: scale(1);
     cursor: pointer;
-    background-color: rgba(241, 241, 241, 0.2);
+    /* background-color: rgba(241, 241, 241, 0.2); */
 }
 
 .BestFoodText {

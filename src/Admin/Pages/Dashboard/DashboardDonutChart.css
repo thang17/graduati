@@ -1,0 +1,10 @@
+.donutchart {
+    display: flex;
+    justify-content: center;
+    height: 450px !important;
+}
+.donutchart-legend {
+}
+
+.donutchart-legend-item > rect {
+}

@@ -1,11 +1,95 @@
-.Banner1 img {
+/* .Banner1 img {
     width: 100%;
     height: 100%;
     padding: 0 50px;
     border-image: 50 stretch;
+} */
+
+.BannerText {
+    padding: 0 75px;
+    margin-top: 5rem;
 }
 
+.Banner1 {
+    position: relative;
+    display: inline-block;
+}
 
-/* .Banner1 {
-    border-radius: 50px0;
-} */
+.Banner1Img {
+    border: 15px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 6%);
+}
+
+.Banner1 span {
+    position: absolute;
+    right: 0;
+    font-size: 0.8rem;
+    width: 4rem;
+    height: 4rem;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    color: #fff;
+    background-color: #ff514e;
+    transition: all .25s ease;
+}
+
+.Banner1 span:hover {
+    background-color: #fff;
+    border: 5px solid #ff514e; 
+    color: #ff514e;
+}
+
+.thumbarrow {
+    content: "";
+    position: absolute;
+    right: -72%;
+    top: 50%;
+    height: 2.8rem;
+    width: 9rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-image: url('../../asstes/images/arrow-1.png');
+}
+
+.thumbarrow1 {
+    content: "";
+    position: absolute;
+    right: -72%;
+    top: 50%;
+    height: 2.8rem;
+    width: 9rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-image: url('../../asstes/images/arrow-2.png');
+}
+
+.thumbarrow2 {
+    content: "";
+    position: absolute;
+    right: -72%;
+    top: 50%;
+    height: 2.8rem;
+    width: 9rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-image: url('../../asstes/images/arrow-3.png');
+}
+
+.Banner1Choose {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 25px;
+    transition: all .25s ease;
+}
+
+.Banner1Choose:hover {
+    color: #ff514e;
+    cursor: pointer;
+}

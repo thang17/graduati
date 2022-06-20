@@ -10,6 +10,7 @@ import Banner1 from './components/Banner1/Banner1';
 import Product from './components/Product/Product';
 import BestFood from './components/BestFood/BestFood';
 import Footer from './components/Footer/Footer';
+import Company from './components/Company/Company';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
       <Banner1 />
       <Product />
       <BestFood />
-      <Product />
+      <Company />
+      {/* <Product /> */}
       <Footer />
       {/* <Restaurant />
       <Office />

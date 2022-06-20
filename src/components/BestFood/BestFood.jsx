@@ -20,7 +20,7 @@ const BestFood = () => {
         <div className="row featurette mb-5">
           <div className={`${styles.BestFoodIteam} col-md-6`}>
             <img className="rounded-circle" alt="" src={fav} />
-            <div className={styles.scaleImg}>1</div>
+            <div className={styles.scaleImg}></div>
           </div>
           <div className={`${styles.BestFoodOUR} col-md-6`}>
             <h3> Best Food In The Country</h3>

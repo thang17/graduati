@@ -20,24 +20,24 @@ const Header = () => {
           </a>
           <ul className="nav col-5 col-md-auto mb-2 justify-content-center mb-md-0">
             <li>
-              <a href="#" className="nav-link px-4 link-secondary">
-                Home
-              </a>
+              <Link to="/" className="nav-link px-4 link-secondary">
+                TRANG CHỦ
+              </Link>
             </li>
             <li>
-              <a href="#" className="nav-link px-4 link-dark">
-                Features
-              </a>
+              <Link to="/gioi-thieu" className="nav-link px-4 link-dark">
+                GIỚI THIỆU
+              </Link>
             </li>
             <li>
-              <a href="#" className="nav-link px-4 link-dark">
-                Pricing
-              </a>
+              <Link to="/cua-hang" className="nav-link px-4 link-dark">
+                CỬA HÀNG
+              </Link>
             </li>
             <li>
-              <a href="#" className="nav-link px-4 link-dark">
-                FAQs
-              </a>
+              <Link to="/lien-he" className="nav-link px-4 link-dark">
+                LIÊN HỆ
+              </Link>
             </li>
             <li>
               <a href="#" className="nav-link px-4 link-dark">

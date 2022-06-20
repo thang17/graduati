@@ -52,9 +52,17 @@
     animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
+.productElmenetP {
+    font-size: 1.2rem;
+    /* text-shadow: 0px 2px 3px rgb(173, 173, 173); */
+    color:#1A9D5D;
+    transform-origin: opacity,transform;
+    -webkit-animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both ;
+    animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
 .productElmenet {
-    font-size: 3rem ;
-   
+    font-size: 2rem !important ;
     color:#142850;
     transform-origin: opacity,transform;
     -webkit-animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both ;
@@ -80,4 +88,52 @@
     transform-origin: opacity,transform;
     -webkit-animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both ;
     animation: text-leftToRight 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.productDetail{
+    left: 14px;
+    display: none;
+    transform-origin: opacity,transform;
+    -webkit-animation: text-leftToRight 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both ;
+    animation: text-leftToRight 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.productLove{
+    right: 14px;
+    display: none;
+    transform-origin: opacity,transform;
+    -webkit-animation: text-RightToLeft 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both ;
+    animation: text-RightToLeft 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.productDetail i,
+.productLove i{
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+.productDetail:hover,
+.productLove:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.productCard:hover>.productDetail,
+.productCard:hover>.productLove{
+    display: block;
+}
+
+.productDetail,
+.productLove{
+        position: absolute;
+        top: 14px;
+        background-color: rgba(219, 219, 219, 0.99);
+        border-radius:50%;
+        text-shadow: 0 1px 2px rgb(43, 43, 43);
+        height: 40px;
+        text-align: center;
+        line-height: 43px;
+        width:40px;
+        z-index: 4;
+    }
+.Visibi {
+    --fa-animation-duration: 2s; 
+    --fa-fade-opacity: 0.6;
 }
