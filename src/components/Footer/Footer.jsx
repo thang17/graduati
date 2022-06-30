@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
           <div className={`${styles.FooterBox} col align-items-start`}>
             
-              <h4 className="fw-bold mb-0">Contact Info</h4>
+              <h4 className="fw-bold mb-0">Thông tin liên hệ</h4>
               <a href="#" className={styles.FooterLinks}><i><LocalPhoneIcon sx={{color: "#ff7800", paddingRight: "0.5rem", fontSize: "2rem"}} /></i> +199663358</a>
               <a href="#" className={styles.FooterLinks}><i><LocalPhoneIcon sx={{color: "#ff7800", paddingRight: "0.5rem", fontSize: "2rem"}}/></i> +199663358</a>
               <a href="#" className={styles.FooterLinks}><i><EmailIcon sx={{color: "#ff7800", paddingRight: "0.5rem", fontSize: "2rem"}}/></i> abc@gmail.com</a>
@@ -54,13 +54,18 @@ const Footer = () => {
           </div>
           <div className={`${styles.FooterBox} col align-items-start`}>
             
-              <h4 className="fw-bold mb-0">Newsletter</h4>
-              <p>
-                  
-                Subscribe for latest updates
-              </p>
-              <input type="email" placeholder="your email" className={styles.email} />
-              <input type="submit" value="subscribe" className={styles.btn} />
+              <h4 className="fw-bold mb-0">Bản tin</h4>
+              <div className={`${styles.map} Larger shadow`}>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.973536417997!2d105.77400551538915!3d20.99369789434913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345349877de467%3A0x8f9320394b437894!2zNDUgUC4gxJDhuqFpIExpbmgsIFRydW5nIFbEg24sIFThu6sgTGnDqm0sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1655187655522!5m2!1svi!2s"
+                width="600"
+                height="200"
+                style={{border: 0, width: "100%"}}
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
               <img alt="" src={payment} className={styles.paymentImg}/>
             
           </div>

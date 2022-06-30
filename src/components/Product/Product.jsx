@@ -19,7 +19,7 @@ const Product = () => {
               href="/"
               class="d-flex align-items-center  text-decoration-none"
             >
-              <span className={`${styles.productSpan} fs-4`}>POPULAR Dish</span>
+              <span className={`${styles.productSpan} fs-4`}>Món ăn phổ biến</span>
             </a>
 
             <nav className={`${styles.productNAV} d-inline-flex mt-2 mt-md-0 ms-md-auto`}>
@@ -39,8 +39,8 @@ const Product = () => {
           </div>
 
           <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-            <p className={styles.productElmenetP}>Our Menu</p>
-            <h1 className={`${styles.productElmenet} display-4 fw-normal`}>TODAY'S SPECIALITY</h1>
+            <p className={styles.productElmenetP}>Thực đơn của chúng tôi</p>
+            <h1 className={`${styles.productElmenet} display-4 fw-normal`}>MÓN ĂN NGÀY HÔM NAY</h1>
           </div>
           <div className="row d-flex  row-cols-1 row-cols-md-3 mb-3 ">
             <div class="col-lg-3 col-md-4 col-sm-6">

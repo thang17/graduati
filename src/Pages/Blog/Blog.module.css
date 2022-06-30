@@ -1,0 +1,180 @@
+.Blog {
+    padding: 0 103px;
+}
+
+.blogCategory {
+    margin-bottom: 30px;
+}
+
+.blogCategory__content.not-pd{
+    padding: 0;
+}
+
+.blogCategoryTitle{
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0px 0 10px;
+    border-bottom: 1px solid #c69c6d;
+    line-height:20px;
+    /* font-weight:300; */
+}
+
+.blogCategory ul{
+    padding-left: 3px;
+}
+
+.blogCategoryItem{
+    margin-bottom: 12px;
+    color: #c69c6d ;
+}
+
+.blogCategoryLink{
+    color: #c69c6d ;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.blogCategoryLink:hover{
+    color: #f2b94c ;
+}
+
+.blogCategoryBox {
+    width: 100%;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.blogCategoryBoxImg {
+    width: 90px;;
+    margin-right: 16px;
+}
+
+.blogCategoryBoxImg img {
+    width: 100%;
+    object-fit: cover;
+    height: 80px;
+}
+
+.blogCategoryCoxText {
+    width: calc(100% - 90px);
+    font-size: 1rem;
+    color:#c69c6d;
+    transition:.2s ease;
+    letter-spacing: 1px;
+}
+
+.blogCategoryCoxText:hover{
+    color: #f2b94c;
+}
+
+.listBlogs {
+    padding-bottom: 60px;
+}
+
+.blogCategoryItem.blogCategoryItemBoder{
+    border: 1px solid #c69c6d;
+    width: 100%;
+    border-radius:5px;
+    text-align: center;
+}
+.blogCategoryItemBoder a{
+    padding: 10px 5px;
+    transition: .2s ease;
+}
+.blogCategoryItemBoder:hover{
+    background-color: #c69c6d;
+
+}
+.blogCategoryItemBoder:hover a{
+    color: #fff;
+}
+
+.myblog{
+    border-bottom: 2px dashed #c69c6d;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+
+.blogThumnail {
+
+}
+
+.blogThumnailLink {
+    display: block;
+}
+
+.blogThumnailImg{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.myblogTitle {
+    font-size: 1.4rem;
+    margin: 10px 0;    
+    font-weight: 600;
+}
+
+.myblockTitleLink{
+    color: #c69c6d ;
+
+}
+.myblockTitleLink:hover{
+    color: #f2b94c;
+}
+
+.myblogTitleContent {
+    font-size: 0.9rem;
+    line-height:1.6; 
+}
+
+.myblogTitleContent a{
+    color: inherit;
+    display: inline-block;
+}
+.myblogTitleContent a:hover{
+    color: #f2b94c;
+}
+
+.timePost {
+    display: flex;
+    font-size: 0.9rem;
+    margin: 4px 0;
+    color: #c69c6d ;
+    align-items: center;
+}
+
+.timePost span {
+    display: flex;
+    gap: 7px;
+}
+
+.timeComment{
+    margin: 0 18px;
+}
+
+.timeTagLink{
+    display:inline-block;
+    color: #c69c6d ;
+}
+.timeTagLink:hover{
+    color: #f2b94c ;
+}
+
+.social {
+    display: flex;
+    margin: 4px 0;
+}
+
+.socialLink {
+    margin-left: 18px;
+    font-size: 1.4rem;
+}
+
+.socialLink svg:hover {
+    color: #f2b94c ;
+}
+.socialLink svg{
+    padding: 2px;
+    color: #c69c6d;
+}

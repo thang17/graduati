@@ -166,3 +166,31 @@
     display: inline-block;
     border-radius: 4px;
 }
+
+.descCategoryMenu {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 100px;
+    list-style: none;
+    font-weight: bold;
+  }
+  .descCategoryMenu li {
+    cursor: pointer;
+  }
+  .descCategoryMenu li.active {
+    color: red;
+  }
+  .descCategoryMenu::before,
+  .descCategoryMenu::after {
+    content: "";
+    height: 1px;
+    background-color: #000;
+    width: 20%;
+  }
+
+  .descDetail .descDetailTitle {
+    font-weight: bold;
+    margin-bottom: 1rem; 
+  }

@@ -12,6 +12,8 @@ import Details from './Pages/Details/Details';
 import Introduce from './Pages/Introduce/Introduce';
 import ShoppingCart from './Pages/ShoppingCart/ShoppingCart';
 import Contact from './Pages/Contact/Contact';
+import Blog from './Pages/Blog/Blog'
+import DailyMenu from './Pages/DailyMenu/DailyMenu';
 import Sidebars from "./Admin/Sidebars/Sidebars"
 import StoreList from "./Admin/Pages/StoreList/StoreList";
 import ProductManagement from "./Admin/Pages/ProductManagement/ProductManagement"
@@ -25,6 +27,7 @@ import OrderDetail from "./Admin/Pages/OrderManager/OrderDetail/OrderDetail"
 import UserManager from './Admin/Pages/UserManager/UserManager'
 import UserDetail from './Admin/Pages/UserManager/UserDetail/UserDetail'
 import Dashboard from './Admin/Pages/Dashboard/Dashboard'
+import ConfirmBill from './Pages/ConfirmBill/ConfirmBill';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -40,7 +43,10 @@ root.render(
       <Route exact path="/gioi-thieu" component={Introduce} />
       <Route exact path="/cua-hang" component={ShoppingCart} />
       <Route exact path="/lien-he" component={Contact} />
+      <Route exact path="/blog" component={Blog} />
       <Route exact path="/thanh-toan" component={Checkout} />
+      <Route exact path="/xác-nhan-thanh-toan" component={ConfirmBill} />
+      <Route exact path="/thuc-don-hang-ngay" component={DailyMenu} />
       <Route exact path="/admin" component={Dashboard} />
       <Route exact path="/admin/quan-ly-cua-hang" component={StoreList} />
       <Route exact path="/admin/quan-ly-san-pham" component={ProductManagement} />

@@ -4,7 +4,6 @@ import Header from "../../components/Header/Header";
 import Breadcrumbs from "../../Pages/Breadcrumbs/Breadcrumbs";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import Footer from "../../components/Footer/Footer";
-import map from "../../asstes/images/map.jpg";
 
 const Contact = () => {
   const breadcrumItem = [
@@ -24,7 +23,7 @@ const Contact = () => {
     <>
       <Header />
       <div className={styles.Contact}>
-        <div className={` container mt-5 `}>
+        <div className={` container mt-5 mb-5`}>
           <Breadcrumbs breadItem={breadcrumItem} />
 
           <div className={styles.ContactItem}>
