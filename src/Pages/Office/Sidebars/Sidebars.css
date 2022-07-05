@@ -1,0 +1,31 @@
+.MuiAccordion-root,
+.MuiPaper-root,
+.MuiButtonBase-root,
+.MuiAccordionSummary-root {
+    box-shadow: none !important;
+}
+.MuiPaper-root.MuiAccordion-root::before {
+    content: none;
+}
+.MuiPaper-root p {
+    font-size: 14px;
+}
+.MuiAccordionSummary-root.MuiButtonBase-root {
+    height: 39px;
+    margin-bottom: 9px;
+    border-radius: 4px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.MuiAccordionSummary-root.Mui-expanded {
+    background-color: #f3f5f9;
+}
+.MuiAccordionDetails-root {
+    padding: 0 !important;
+    margin: 0 30px;
+}
+.MuiTypography-root.MuiTypography-body1 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}

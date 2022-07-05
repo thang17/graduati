@@ -1,0 +1,149 @@
+.main {
+    /* position: fixed; */
+    min-height: 100vh;
+    width: 20%;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    background-color: #fff;
+    bottom: 0;
+}
+.main a {
+    text-decoration: none;
+    color: #000;
+}
+.head {
+    height: 70px;
+
+    padding: 0 24px;
+    margin: 47px 24px 34px 24px;
+}
+.headContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headContent .iconBell {
+    cursor: pointer;
+    position: relative;
+}
+.headContent .iconBell:hover {
+    transform: scale(1.1);
+}
+.headContent .iconBell::after {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-color: #df3d3d;
+    border-radius: 50%;
+    transform: translate(-12px, 2px);
+}
+.headContent .noti {
+    position: absolute;
+    width: 400px;
+    padding: 5px 24px;
+}
+.headContent .notiHead {
+    display: flex;
+    justify-content: space-between;
+}
+.headContent .notiHead > h4 {
+    flex: 1;
+}
+.headContent .notiHead span {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.logoImg {
+    height: 40px;
+    filter: drop-shadow(black 2px 4px 6px);
+    width: 100%;
+}
+
+.content {
+    margin: 0 24px;
+    flex: 1;
+}
+
+.accordionIcon {
+    margin-right: 10px;
+    height: 24px;
+    color: #6f42c1;
+}
+
+.account {
+    margin: 0 39px 30px 39px;
+    display: flex;
+}
+.accountImg svg {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+.accordionCaption span {
+    
+    color: #160d27;
+}
+.accountContent {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.accountName,
+.accountBtn {
+    margin: auto;
+}
+.accountName {
+    font-size: 14px;
+    font-weight: bold;
+}
+.accountBtn {
+    border: 1px solid#1A358F;
+    width: 91px;
+    height: 24px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accountBtn * {
+    font-size: 10px;
+}
+
+/* -------------------------tablets & mobile--------------------- */
+@media only screen and (max-width: 1023px) {
+    .main {
+        display: none;
+    }
+}
+/* -------------------------mobile--------------------- */
+@media only screen and (max-width: 739px) {
+}
+
+/* -------------------------tablets--------------------- */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .main {
+        width: 240px;
+    }
+}
+
+/* -------------------------PC--------------------- */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .main {
+        width: 220px;
+    }
+    .head {
+        padding: 0;
+    }
+    .content {
+        margin: 0 5px;
+    }
+    .account {
+        margin: 0px 24px 34px 24px;
+    }
+}
